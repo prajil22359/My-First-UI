@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.AmbientLight?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="550.0" maxWidth="438.0" prefHeight="525.0" prefWidth="425.0" snapToPixel="false" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prajil.HomePageController">
+   <children>
+      <ImageView fx:id="bgImageView" disable="true" fitHeight="527.0" fitWidth="428.0" pickOnBounds="true">
+         <image>
+            <Image url="@homeBackground.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="DISAPPEAR" />
+         </cursor>
+         <effect>
+            <Blend opacity="0.35">
+               <topInput>
+                  <Lighting diffuseConstant="0.9" specularConstant="2.0" specularExponent="40.0" surfaceScale="3.33">
+                     <bumpInput>
+                        <Shadow height="18.66" radius="11.17" width="28.02">
+                           <input>
+                              <BoxBlur height="255.0" width="86.88" />
+                           </input>
+                        </Shadow>
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </topInput>
+            </Blend>
+         </effect>
+      </ImageView>
+      <Rectangle fx:id="baseRectangle" arcHeight="5.0" arcWidth="5.0" fill="#0f1010" height="200.0" layoutX="175.0" layoutY="327.0" stroke="BLACK" strokeType="INSIDE" width="94.0" />
+      <ImageView fx:id="heroImageView" fitHeight="77.0" fitWidth="88.0" layoutX="188.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hero_0.png" />
+         </image>
+         <effect>
+            <Glow level="0.11" />
+         </effect>
+      </ImageView>
+      <Line fx:id="stick" endX="-94.85413360595703" layoutX="360.0" layoutY="322.0" rotate="-90.0" startX="-100.0" strokeWidth="5.0" />
+      <Button fx:id="playButton" layoutX="194.0" layoutY="128.0" mnemonicParsing="false" onAction="#switchToPlay" text="Play">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="gameNameLabel" layoutX="136.0" layoutY="35.0" text="Stick Hero" textFill="#242526">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Button fx:id="noAdsButton" layoutX="362.0" layoutY="320.0" mnemonicParsing="false" text="NO ADS" />
+      <Button fx:id="charachterShopButton" layoutX="350.0" layoutY="385.0" mnemonicParsing="false" text="Character " />
+      <Button fx:id="cherryButton" layoutX="365.0" layoutY="444.0" mnemonicParsing="false" text="Cherry " />
+      <Button fx:id="termsAndConditionButton" layoutX="14.0" layoutY="320.0" mnemonicParsing="false" text="Conditions" />
+      <Button fx:id="guideButton" layoutX="14.0" layoutY="385.0" mnemonicParsing="false" text="Guide" />
+      <Button fx:id="soundButton" layoutX="14.0" layoutY="444.0" mnemonicParsing="false" text="Sound" />
+      <AmbientLight fx:id="light" layoutX="95.0" layoutY="255.0">
+         <color>
+            <Color green="0.5792575478553772" blue="1.0" />
+         </color>
+      </AmbientLight>
+   </children>
+</AnchorPane>
