@@ -56,7 +56,7 @@
          </effect>
       </ImageView>
       <Line fx:id="stick" endX="-94.85413360595703" layoutX="360.0" layoutY="322.0" rotate="-90.0" startX="-100.0" strokeWidth="5.0" />
-      <Button fx:id="playButton" layoutX="194.0" layoutY="128.0" mnemonicParsing="false" onAction="#switchToPlay" text="Play">
+      <Button fx:id="playButton" layoutX="188.0" layoutY="128.0" mnemonicParsing="false" onAction="#switchToPlay" prefHeight="55.0" prefWidth="68.0" text="Play">
          <font>
             <Font size="18.0" />
          </font>
@@ -66,16 +66,15 @@
             <Font size="38.0" />
          </font>
       </Label>
-      <Button fx:id="noAdsButton" layoutX="362.0" layoutY="320.0" mnemonicParsing="false" text="NO ADS" />
-      <Button fx:id="charachterShopButton" layoutX="350.0" layoutY="385.0" mnemonicParsing="false" text="Character " />
-      <Button fx:id="cherryButton" layoutX="365.0" layoutY="444.0" mnemonicParsing="false" text="Cherry " />
-      <Button fx:id="termsAndConditionButton" layoutX="14.0" layoutY="320.0" mnemonicParsing="false" text="Conditions" />
-      <Button fx:id="guideButton" layoutX="14.0" layoutY="385.0" mnemonicParsing="false" text="Guide" />
-      <Button fx:id="soundButton" layoutX="14.0" layoutY="444.0" mnemonicParsing="false" text="Sound" />
       <AmbientLight fx:id="light" layoutX="95.0" layoutY="255.0">
          <color>
             <Color green="0.5792575478553772" blue="1.0" />
          </color>
       </AmbientLight>
+      <Button fx:id="sound" layoutX="348.0" layoutY="387.0" mnemonicParsing="false" onAction="#soundToggle" prefHeight="42.0" prefWidth="68.0" text="Mute">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
