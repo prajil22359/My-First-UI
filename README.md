@@ -1,4 +1,4 @@
-                                                    Stick-Hero-Replica
+                                                    My First UI
 * Guide : Dr. Raghava Muthuraju
   
 * Tech Stack : JAVA, JAVAFX, Scene Builder
