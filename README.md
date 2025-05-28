@@ -1,7 +1,7 @@
                                                     My First UI
 # My First UI - Stick Hero Desktop Clone
 
-A desktop clone of the popular mobile game **Stick Hero**, built with Java, JavaFX, and Scene Builder (FXML).  
+A popular game **Ninja Hero**, built with Java, JavaFX, and Scene Builder (FXML).  
 Developed as a project under the guidance of Dr. Raghava Muthuraju.
 
 ## Table of Contents
@@ -17,20 +17,19 @@ Developed as a project under the guidance of Dr. Raghava Muthuraju.
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [Credits](#credits)
-- [License](#license)
-
 ---
 
 ## About
 
-**My First UI** recreates the mechanics and feel of Stick Hero for the desktop using JavaFX.  
+**Ninja Hero** creates the mechanics and feel of Stick Hero for the desktop using JavaFX.  
 The player controls a hero who must cross platforms by growing a stick to the correct length.  
-Game state (like cherries collected) is saved locally so you can continue your progress.
+additional challenges including Game state (like cherries collected) is saved locally so you can continue your progress.
 
 ## Features
 
 - Faithful recreation of Stick Hero game mechanics for desktop
 - Interactive UI built with JavaFX and FXML (Scene Builder)
+- additional challenges making game more enganging.
 - Object-oriented and event-driven architecture
 - Save and load game progress (including cherry count and high scores) via Java Serializable
 - Sound effects and background music
@@ -125,9 +124,11 @@ java -jar target/Prajil-1.0-SNAPSHOT.jar
 - Progress is saved in a file named `cherryCount.txt` within your working directory.
 
 ## Screenshots
+( ![image](https://github.com/user-attachments/assets/edcee204-52bc-482c-bf23-fc6567da8c25)
+![image](https://github.com/user-attachments/assets/91031fbd-840e-4226-927e-b369d9153556)
+)
 
-*Add screenshots of the UI/gameplay here for better visualization.*  
-*(You can use ![image](path/to/screenshot.png) syntax.)*
+
 
 ## Contributing
 
@@ -142,7 +143,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## Credits
 
 - **Guide:** Dr. Raghava Muthuraju
-- **Developer:** [Your Name or Team]
+- **Developer:** Team- Prajil, Prince, Ayush, Areeb
 - **Sound & Art Assets:** All assets used are for educational, non-commercial purposes.
 
 ## License
