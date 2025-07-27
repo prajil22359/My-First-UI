@@ -1,7 +1,6 @@
-                                                    My First UI
-# My First UI - Stick Hero Desktop Clone
+# Stick Hero Arcade
 
-A popular game **Ninja Hero**, built with Java, JavaFX, and Scene Builder (FXML).  
+A popular game **Stick Hero**, built with Java, JavaFX, and Scene Builder (FXML).  
 Developed as a project under the guidance of Dr. Raghava Muthuraju.
 
 ## Table of Contents
