@@ -124,9 +124,9 @@ java -jar target/Prajil-1.0-SNAPSHOT.jar
 - Progress is saved in a file named `cherryCount.txt` within your working directory.
 
 ## Screenshots
-(![image](https://github.com/user-attachments/assets/edcee204-52bc-482c-bf23-fc6567da8c25)
+![image](https://github.com/user-attachments/assets/edcee204-52bc-482c-bf23-fc6567da8c25)
 ![image](https://github.com/user-attachments/assets/91031fbd-840e-4226-927e-b369d9153556)
-)
+
 
 
 
